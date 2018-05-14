@@ -1,0 +1,34 @@
+<!--
+    Autor: Gabriel Barreto
+    Curso de PHP
+    Ministrado em Maio/2018
+    Realização: DACOMP & UNECT
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Qual a melhor cerveja do mercado? Ajude-nos nessa pesquisa.</h2>
+    <form action="3_RESPOSTA.php" method="get">
+        Nome:<br>
+        <input type="text" name="nome"><br>
+        Sobrenome:<br>
+        <input type="text" name="sobrenome"><br>
+        Idade:<br>
+        <input type="number" name="idade"><br>
+        Qual a melhor cerveja?<br>
+        <input type="radio" name="cerveja" value="budweiser">Budweiser<br>
+        <input type="radio" name="cerveja" value="heineken">Heineken<br>
+        <input type="radio" name="cerveja" value="original">Original<br>
+        <input type="radio" name="cerveja" value="bavaria">Bavaria<br>
+        <input type="radio" name="cerveja" value="nao">Não bebo<br> 
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
