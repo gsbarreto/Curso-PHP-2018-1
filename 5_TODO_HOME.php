@@ -18,7 +18,7 @@
     $host = "localhost";
     $dbname = "todo";
     $usuario = "root";
-    $senha = "biel1996";
+    $senha = "";
 
     try{
         $conexao = new PDO('mysql:host='.$host.';dbname='.$dbname,$usuario,$senha);
