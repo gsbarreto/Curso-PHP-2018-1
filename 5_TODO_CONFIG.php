@@ -2,7 +2,7 @@
 $host = "localhost";
 $dbname = "todo";
 $usuario = "root";
-$senha = "biel1996";
+$senha = "";
 
 require_once("5_TODO_CABECALHO.php");
 
